@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+html {
+   
+}
+
+body {
+    color: #333;
+    
+}
+
+
+div#confirm_message {
+    background: #fff;color: #ff0808;
+    text-align: center;font-size: 24px;
+    margin: 10px 10px;padding: 15px;
+    line-height: 24px;}
+
+/*** 共通 ***/
+
+.a_left {text-align: left;}
+
+/*** ======================================= PC ======================================= ***/
+
+/* ヘッダー　あり用 */
+body.frame_outer {margin: 0 auto;width: 980px;text-align: center;}
+
+/* ヘッダー部分 斎場名 */
+div.header {min-width: 960px;width: auto;text-align: center;}
+div.header_wrap {min-width: 960px;width: auto;text-align: center;}
+div.header_line {
+    background: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    border: double 5px #330066;
+    /* width: 640px; */
+    margin: 10px 100px;
+    padding: 15px;
+}
+
+div.header_line > a {
+        color: #05a !important;
+        text-decoration: none !important;
+}
+
+div.top_toiawase {
+    font-size: 1.2rem; font-weight: bold;
+    position: relative;left: 4%;
+}
+
+/* ================= TOP 画面 ===========================*/
+.top_left_text {
+    position: relative;
+    left: 3%;
+}
+
+#aki_div {
+    margin: 0 0 0 115px;
+    position: relative;
+    left: -3%;
+}
+
+/* a */
+#yoyaku_btn_01 {
+        padding: 7px 25%;
+}
+
+/* a */
+#yoyaku_btn_02 {
+        padding: 7px 35%;
+}
+
+#goriyou_div{
+    position: relative;
+    left: 8%;
+}
+
+#toiawase_mado_div {
+    position: relative;
+    left: 7%;
+}
+
+
+/* =================　予約 登録フォーム ===================*/
+
+.list {
+    margin: 15px auto 20px auto;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.list th {padding: 8px;border-right: 1px solid #aaa;border-bottom: 1px solid #aaa;
+    color: #333;background-color: #f0f0f0;font-weight: normal;
+}
+
+.list td {
+    padding: 8px;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.alignL {
+    text-align: left;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.clearfix {
+    display: block;
+}
+
+/* =========== ログイン前　画面 =============== */
+
+.login_text {
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+.login_form {
+    margin: 25px 0;
+}
+
+.saijo_btn_g {
+    margin: 25px 0;
+}
+
+/* =========== ログイントップ　画面  ============*/
+
+/* 斎場名 */
+.login_top_gyousayname_div {margin: 25px 0;
+    position: relative;left: 9%;}
+
+/* ログイン　トップ　ボタン */
+.btn_div_01 {margin: 30px 0 30px 0;}
+.btn_div_01 > button {margin: 0 15px;}
+.btn_div_01 button > a { text-decoration: none !important;
+color: #fff;}
+
+
+/*=========== 予約入力フォーム　01 ==========*/
+
+span.form_err_message_01 {display: block; 
+    color:red;margin: 5px 0;}
